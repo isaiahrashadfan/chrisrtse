@@ -4,6 +4,8 @@ import "./globals.css";
 import { Noto_Serif } from "next/font/google";
 import { Anonymous_Pro } from "next/font/google";
 import { Arimo } from "next/font/google";
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 
 
 const noto_serif = Noto_Serif({
@@ -15,7 +17,7 @@ const noto_serif = Noto_Serif({
 const anonymous_pro = Anonymous_Pro({
   weight: ['400','700'],
   subsets: ["latin"],
-  variable: '--font-anonymous-pro'
+  variable: '--font-anonymous_pro'
 });
 
 const arimo = Arimo({
@@ -32,7 +34,8 @@ export default function RootLayout({
   return (
     <html className={`${noto_serif.variable} ${anonymous_pro.variable} ${arimo.variable}`}>
       <body>
-        {/* <Navbar /> */}
+        <Sidebar></Sidebar>
+        <Navbar></Navbar>
         {children}
       </body>
     </html>
