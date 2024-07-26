@@ -10,7 +10,7 @@ export default function Home() {
             CHRIS TSE
         </h1>
         <div className="bg-black absolute w-screen h-screen justify-center z-10 opacity-25"></div>
-        <video src="cropped_video.mp4" autoPlay loop muted preload='auto' width='1280' height='720' className="object-cover absolute w-screen h-screen justify-center z-0 pointer-events-none"></video>
+        <video playsInline src="cropped_video.mp4" autoPlay loop muted preload='auto' width='1280' height='720' className="object-cover absolute w-screen h-screen justify-center z-0 pointer-events-none"></video>
       </div>
 
       
