@@ -48,11 +48,10 @@ export default function Sidebar() {
 
             <div className="absolute bottom-[15px] flex flex-row space-x-[20px]">
                 {/* Socials Icons */}
-                <Link href="https://www.instagram.com/cchristse/"><SiInstagram className=""></SiInstagram ></Link>
-                <Link href="https://discord.com/users/85194740890337280"><SiDiscord className=""></SiDiscord ></Link>
-                <Link href="https://www.linkedin.com/in/chris-tse-irf/"><SiLinkedin className=""></SiLinkedin ></Link>
-                <Link href="https://github.com/isaiahrashadfan"><SiGithub className=""></SiGithub ></Link>
-                
+                <Link target="_blank" href="https://www.instagram.com/cchristse/"><SiInstagram></SiInstagram></Link>
+                <Link target="_blank" href="https://discord.com/users/85194740890337280"><SiDiscord></SiDiscord></Link>
+                <Link target="_blank" href="https://www.linkedin.com/in/chris-tse-irf/"><SiLinkedin></SiLinkedin></Link>
+                <Link target="_blank" href="https://github.com/isaiahrashadfan"><SiGithub></SiGithub></Link>
             </div>
           </div>
       </div>

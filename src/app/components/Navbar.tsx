@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="text-2xl font-Anonymous_Pro font-medium w-full h-[70px] absolute z-30 flex flex-row justify-center items-center space-x-[70px]">
+    <div className="hidden md:flex text-2xl font-Anonymous_Pro font-medium w-full h-[70px] absolute z-30 flex-row justify-center items-center space-x-[70px]">
         {/* Home, Computer Science, Music, Personal Blog */}
 
         {/* Home Button */}
