@@ -32,8 +32,6 @@ export default function Navbar() {
                     Personal Blog
                 </p>
             </Link>
-
-        
     </div>
   );
 }

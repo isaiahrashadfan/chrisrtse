@@ -6,6 +6,7 @@ import { SiInstagram } from "react-icons/si";
 import { SiDiscord } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
+import { SiSpotify } from "react-icons/si";
 
 
 export default function Sidebar() {
@@ -52,6 +53,7 @@ export default function Sidebar() {
                 <Link target="_blank" href="https://discord.com/users/85194740890337280"><SiDiscord></SiDiscord></Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/chris-tse-irf/"><SiLinkedin></SiLinkedin></Link>
                 <Link target="_blank" href="https://github.com/isaiahrashadfan"><SiGithub></SiGithub></Link>
+                <Link target="_blank" href="https://open.spotify.com/user/natutari?si=9512990e04204690"><SiSpotify></SiSpotify></Link>
             </div>
           </div>
       </div>

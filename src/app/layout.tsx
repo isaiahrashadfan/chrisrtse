@@ -6,6 +6,7 @@ import { Anonymous_Pro } from "next/font/google";
 import { Arimo } from "next/font/google";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
+import Webring from "./components/Webring";
 
 
 const noto_serif = Noto_Serif({
@@ -37,6 +38,7 @@ export default function RootLayout({
         <Sidebar></Sidebar>
         <Navbar></Navbar>
         {children}
+        <Webring title="temp" current="chris" url="https://raw.githubusercontent.com/Skyline-College-Computer-Science-Club/clubwebring/master/webring.json"></Webring>
       </body>
     </html>
   );
