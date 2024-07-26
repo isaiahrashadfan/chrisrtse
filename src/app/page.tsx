@@ -6,7 +6,7 @@ export default function Home() {
 
       {/* Hero */}
       <div className="flex min-h-screen flex-col items-center justify-center"> 
-        <h1 className="text-5xl text-center md:text-7xl font-Arimo font-bold z-20 pointer-events-none select-none">
+        <h1 className="text-4xl text-center md:text-7xl font-Arimo font-bold z-20 pointer-events-none select-none">
             CHRIS TSE
         </h1>
         <div className="bg-black absolute w-full h-full justify-center z-10 opacity-25"></div>
