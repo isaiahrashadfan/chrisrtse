@@ -1,6 +1,11 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { SiInstagram } from "react-icons/si";
+import { SiDiscord } from "react-icons/si";
+import { SiLinkedin } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
+import { SiSpotify } from "react-icons/si";
 
 import Link from 'next/link'
 
@@ -64,18 +69,29 @@ export default function Webring({ title = 'you\'re viewing', current, url }: { t
 
     return (
         <div className='w-full bg-neutral-950 text-center'>
-            <div className='py-6 font-semibold'>
+            
+
+            <div className='py-6 font-Anonymous_Pro font-semibold'>
                 <p className='hidden sm:block'>{title}</p>
                 <div className='flex flex-row flex-wrap gap-2 sm:gap-4 justify-center my-2 text-lg'>
                     <Link href={webringData.left.link} target='_blank'>
-                        <p className='w-44 py-1 bg-neutral-800 rounded-lg border-neutral-600 active:border-white border-[1px] active:scale-95 hover:bg-[#295a22] transition-all'>👈 {webringData.left.name}</p>
+                        <p className='w-44 py-1 bg-neutral-800 rounded-lg border-neutral-600 active:border-white border-[1px] active:scale-95 hover:bg-white hover:text-black transition-all'>{webringData.left.name.toUpperCase()}</p>
                     </Link>
-                    <div className='hidden sm:block w-44 py-1 bg-neutral-800 rounded-lg border-neutral-600 border-[1px] pointer-events-none'>{current}</div>
+                    <div className='hidden sm:block w-44 py-1 text-white pointer-events-none'>{current.toUpperCase()}</div>
                     <Link href={webringData.right.link} target='_blank'>
-                        <p className='w-44 py-1 bg-neutral-800 rounded-lg border-neutral-600 active:border-white border-[1px] active:scale-95 hover:bg-[#295a22] transition-all'>{webringData.right.name} 👉</p>
+                        <p className='w-44 py-1 bg-neutral-800 rounded-lg border-neutral-600 active:border-white border-[1px] active:scale-95 hover:bg-white hover:text-black transition-all'>{webringData.right.name.toUpperCase()}</p>
                     </Link>
                 </div>
                 <div className='text-neutral-500'>Apart of the <span className='text-blue-400'><a href={url}>{webringData.name}</a></span> webring.</div>
+
+                <div className="justify-center py-[20px] flex flex-row space-x-[20px]">
+                    {/* Socials Icons */}
+                    <Link target="_blank" href="https://www.instagram.com/cchristse/"><SiInstagram></SiInstagram></Link>
+                    <Link target="_blank" href="https://discord.com/users/85194740890337280"><SiDiscord></SiDiscord></Link>
+                    <Link target="_blank" href="https://www.linkedin.com/in/chris-tse-irf/"><SiLinkedin></SiLinkedin></Link>
+                    <Link target="_blank" href="https://github.com/isaiahrashadfan"><SiGithub></SiGithub></Link>
+                    <Link target="_blank" href="https://open.spotify.com/user/natutari?si=9512990e04204690"><SiSpotify></SiSpotify></Link>
+                </div>
             </div>
         </div>
     )

@@ -47,6 +47,13 @@ export default function Sidebar() {
                 </p>
             </Link>
 
+            {/* Photography */}
+            <Link href={"/photography"}>
+                <p>
+                    Photography
+                </p>
+            </Link>
+
             <div className="absolute bottom-[15px] flex flex-row space-x-[20px]">
                 {/* Socials Icons */}
                 <Link target="_blank" href="https://www.instagram.com/cchristse/"><SiInstagram></SiInstagram></Link>

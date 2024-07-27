@@ -32,6 +32,13 @@ export default function Navbar() {
                     Personal Blog
                 </p>
             </Link>
+
+            {/* Photography */}
+            <Link href={"/photography"}>
+                <p>
+                    Photography
+                </p>
+            </Link>
     </div>
   );
 }

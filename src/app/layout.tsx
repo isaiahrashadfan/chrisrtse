@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { Noto_Serif } from "next/font/google";
 import { Anonymous_Pro } from "next/font/google";
@@ -7,6 +6,15 @@ import { Arimo } from "next/font/google";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Webring from "./components/Webring";
+
+export const metadata: Metadata = {
+  title: 'Chris Tse',
+  description: 'Developer who likes his hobbies.',
+  icons: {
+    icon: './public/favicon.ico',
+  },
+}
+
 
 
 const noto_serif = Noto_Serif({
@@ -34,11 +42,17 @@ export default function RootLayout({
 }>) {
   return (
     <html className={`${noto_serif.variable} ${anonymous_pro.variable} ${arimo.variable}`}>
+      <head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+      </head>
       <body>
-        <Sidebar></Sidebar>
-        <Navbar></Navbar>
-        {children}
-        <Webring title="temp" current="chris" url="https://raw.githubusercontent.com/Skyline-College-Computer-Science-Club/clubwebring/master/webring.json"></Webring>
+          <Sidebar/>
+          <Navbar/>
+          {children}
+          <Webring title="SINCERELY," current="chris" url="https://raw.githubusercontent.com/Skyline-College-Computer-Science-Club/clubwebring/master/webring.json"></Webring>
       </body>
     </html>
   );
