@@ -33,7 +33,7 @@ export default function ComputerScience() {
             <div className="flex flex-col w-[900px]">
               <h2 className="text-2xl md:text-3xl font-Arimo text-black font-bold whitespace-pre-line pb-[10px]">PERSONAL WEBSITE</h2>
               <p className="font-Anonymous_Pro text-xl text-black flex-wrap">
-                A website used to display public information about Chris Tse and display the developer's artistic expression. Includes the various facets of the developer.
+                A website used to display public information about Chris Tse and display the developer&apos;s artistic expression. Includes the various facets of the developer.
               </p>
             </div>
             {/* Item Media */}
