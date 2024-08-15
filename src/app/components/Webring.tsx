@@ -92,6 +92,13 @@ export default function Webring({ title = 'you\'re viewing', current, url }: { t
                     <Link target="_blank" href="https://github.com/isaiahrashadfan"><SiGithub></SiGithub></Link>
                     <Link target="_blank" href="https://open.spotify.com/user/natutari?si=9512990e04204690"><SiSpotify></SiSpotify></Link>
                 </div>
+
+                <div className="justify-center pt-[10px] pb-[20px] flex flex-row space-x-[20px]">
+                    {/* COPYRIGHT TAG */}
+                    <p>
+                      Copyright © 2024 Christopher Tse - All rights reserved.
+                    </p>
+                </div>
             </div>
         </div>
     )
