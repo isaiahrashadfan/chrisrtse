@@ -139,6 +139,8 @@ const photos = [
   { src: "/photos/film_scans/00003509/000035090035.jpg", width: 1600, height: 1061 },
   { src: "/photos/film_scans/00003509/000035090036.jpg", width: 1600, height: 1061 },
   { src: "/photos/film_scans/00003509/000035090037.jpg", width: 1600, height: 1061 },
+  
+
 ];
 
 
