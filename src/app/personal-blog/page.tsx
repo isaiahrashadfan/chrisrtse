@@ -6,7 +6,7 @@ export default function PersonalBlog() {
 
       
       <div className="flex min-h-screen flex-col items-center justify-center "> 
-        <h1 className="text-4xl text-center text-black md:text-7xl font-Arimo font-bold z-20 pointer-events-none select-none">
+        <h1 className="text-4xl text-center text-white md:text-7xl font-Arimo font-bold z-20 pointer-events-none select-none">
             PERSONAL BLOG
         </h1>
         <video playsInline src="/videos/blog.mp4" autoPlay loop muted preload='auto' width='1280' height='720' className="object-cover absolute w-screen h-screen justify-center z-0 pointer-events-none"></video>
