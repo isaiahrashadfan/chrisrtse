@@ -13,9 +13,9 @@ export default function Navbar() {
             </Link>
 
             {/* Computer Science */}
-            <Link href={"/computer-science"}>
+            <Link href={"/portfolio"}>
                 <p>
-                    Computer Science
+                    Portfolio
                 </p>
             </Link>
 

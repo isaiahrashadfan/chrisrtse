@@ -49,9 +49,9 @@ export default function Sidebar() {
                 </Link>
 
             {/* Computer Science */}
-            <Link href={"/computer-science"} onClick={()=>{setSidebarVisible(!sidebarVisible) ; console.log(sidebarVisible)}} className=" px-[30px] py-[2.5px] w-full hover:font-bold rounded-md hover:bg-[#707c8da9] bg-opacity-50 hover:text-white">
+            <Link href={"/portfolio"} onClick={()=>{setSidebarVisible(!sidebarVisible) ; console.log(sidebarVisible)}} className=" px-[30px] py-[2.5px] w-full hover:font-bold rounded-md hover:bg-[#707c8da9] bg-opacity-50 hover:text-white">
                 <p>
-                    Computer Science
+                    Portfolio
                 </p>
             </Link>
 

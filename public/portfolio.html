@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="main-container">
+        <div class="hero-section">
+            <h1 class="portfolio-title">PORTFOLIO</h1>
+            <h2 class="portfolio-subtitle">CS 351 VER.</h2>
+            <video playsinline src="/videos/computer science.mp4" autoplay loop muted preload="auto" class="video-background"></video>
+            <div class="video-overlay"></div>
+        </div>
+
+        <div class="content-section">
+            <h1 class="projects-title">PROJECTS</h1>
+
+            <div class="projects-group">
+                <div class="project-item">
+                    <div id="cards">
+
+                        <div class="card">
+                            <a href="https://www.chrisrtse.com/portfolio.html" target="_blank" class="card">
+                            <div class="card-content">
+                                <div class="card-image"></div>
+                                <div class="card-info-wrapper">
+                                    <div class="card-info">
+                                        <div class="card-info-title">
+                                            <h3>CS 351 PERSONAL PORTFOLIO</h3>  
+                                            <h4>A revised version of my porfolio page hosted on my personal website. Created for the purpose of a class project. Utilizes HTML, vanilla CSS, and JavaScript to create a clean an smooth design.</h4>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="https://github.com/isaiahrashadfan/chrisrtse/" target="_blank" class="card">
+                            <div class="card-content">
+                                <div class="card-image"></div>
+                                <div class="card-info-wrapper">
+                                    <div class="card-info">
+                                        <div class="card-info-title">
+                                            <h3>PERSONAL WEBSITE</h3>  
+                                            <h4>My very own website. Used to display public information about myself and showcase my artistic expression. Displays various facets.</h4>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="https://github.com/isaiahrashadfan/sms-scam-identifier/" target="_blank" class="card">
+                            <div class="card-content">
+                                <div class="card-image"></div>
+                                <div class="card-info-wrapper">
+                                    <div class="card-info">
+                                        <div class="card-info-title">
+                                            <h3>SPAM TEXT AI</h3>  
+                                            <h4>A webtool utilizing OpenAI to determine whether or not a received text message is likely a spam message.</h4>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+                          </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script type="module">
+        import Navbar from '../src/app/components/Navbar.tsx';
+        import Sidebar from './Sidebar.tsx';
+        import Webring from './Webring.tsx';
+
+        ReactDOM.render(React.createElement(Navbar), document.getElementById('navbar-root'));
+
+        ReactDOM.render(React.createElement(Sidebar), document.getElementById('sidebar-root'));
+
+        ReactDOM.render(React.createElement(Webring, {
+            title: "You're viewing",
+            current: "Portfolio",
+            url: "https://yourwebringurl.com/webring.json"
+        }), document.getElementById('webring-root'));
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
