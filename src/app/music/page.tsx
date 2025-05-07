@@ -6,7 +6,7 @@ export default function Music() {
 
       
       <div className="flex min-h-screen flex-col items-center justify-center "> 
-        <h1 className="text-4xl text-center md:text-7xl font-Arimo font-bold z-20 pointer-events-none select-none">
+        <h1 className="text-4xl text-center text-white md:text-7xl font-Arimo font-bold z-20 pointer-events-none select-none">
             MUSIC
         </h1>
         <video playsInline src="/videos/music.mp4" autoPlay loop muted preload='auto' width='1280' height='720' className="object-cover absolute w-screen h-screen justify-center z-0 pointer-events-none"></video>
@@ -34,7 +34,7 @@ export default function Music() {
 
             <div className="flex flex-col pb-[50px] md:pb-[20px]">
               <h2 className="text-center text-2xl md:text-3xl font-Arimo text-black font-bold whitespace-pre-line pb-[10px]">RECOMMENDED SONG</h2>
-              <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/2CYDcunjh8q0F8wDEMW7F7?utm_source=generator" width="352" height="352" frameBorder="0" allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/5tHipIzrGqcoZ4ovlW1Aip?utm_source=generator" width="352" height="352" frameBorder="0" allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
         </div>
 

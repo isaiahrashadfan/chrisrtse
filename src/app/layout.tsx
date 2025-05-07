@@ -9,7 +9,7 @@ import Webring from "./components/Webring";
 
 export const metadata: Metadata = {
   title: 'Chris Tse',
-  description: 'Developer who likes his hobbies.',
+  description: 'Developer by day, hobbyist on the side.',
   icons: {
     icon: './public/favicon.ico',
   },
