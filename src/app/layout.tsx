@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Webring from "./components/Webring";
 
+
 export const metadata: Metadata = {
   title: 'Chris Tse',
   description: 'Developer by day, hobbyist on the side.',

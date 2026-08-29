@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ColumnsPhotoAlbum, RowsPhotoAlbum  } from "react-photo-album";
 import "react-photo-album/columns.css";
 
+
 const photos = [
   { src: "/photos/film_scans/00003328/000033280003.jpg", width: 1600, height: 1061 },
   { src: "/photos/film_scans/00003328/000033280004.jpg", width: 1600, height: 1061 },

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { use, useEffect, useState } from "react";
 import { SiInstagram } from "react-icons/si";
 import { SiDiscord } from "react-icons/si";
-import { SiLinkedin } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
 import { SiGithub } from "react-icons/si";
 import { SiSpotify } from "react-icons/si";
 import { useAnimate } from "framer-motion";
@@ -80,7 +80,7 @@ export default function Sidebar() {
                 {/* Socials Icons */}
                 <Link target="_blank" href="https://www.instagram.com/cchristse/"><SiInstagram></SiInstagram></Link>
                 <Link target="_blank" href="https://discord.com/users/85194740890337280"><SiDiscord></SiDiscord></Link>
-                <Link target="_blank" href="https://www.linkedin.com/in/chris-tse-irf/"><SiLinkedin></SiLinkedin></Link>
+                <Link target="_blank" href="https://www.linkedin.com/in/chris-tse-irf/"><FaLinkedin></FaLinkedin></Link>
                 <Link target="_blank" href="https://github.com/isaiahrashadfan"><SiGithub></SiGithub></Link>
                 <Link target="_blank" href="https://open.spotify.com/user/natutari?si=9512990e04204690"><SiSpotify></SiSpotify></Link>
             </div>
