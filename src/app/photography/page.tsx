@@ -101,8 +101,6 @@ const photos = [
   { src: "/photos/film_scans/00003508/000035080028.jpg", width: 1600, height: 1061 },
   { src: "/photos/film_scans/00003508/000035080029.jpg", width: 1600, height: 1061 },
   { src: "/photos/film_scans/00003508/000035080030.jpg", width: 1600, height: 1061 },
-  { src: "/photos/film_scans/00003508/000035080035.jpg", width: 1600, height: 1061 },
-  { src: "/photos/film_scans/00003508/000035080036.jpg", width: 1600, height: 1061 },
   { src: "/photos/film_scans/00003508/000035080037.jpg", width: 1600, height: 1061 },
 
   { src: "/photos/film_scans/00003509/000035090001.jpg", width: 1600, height: 1061 },
@@ -128,8 +126,6 @@ const photos = [
   { src: "/photos/film_scans/00003509/000035090033.jpg", width: 1600, height: 1061 },
   { src: "/photos/film_scans/00003509/000035090034.jpg", width: 1600, height: 1061 },
   { src: "/photos/film_scans/00003509/000035090035.jpg", width: 1600, height: 1061 },
-  { src: "/photos/film_scans/00003509/000035090036.jpg", width: 1600, height: 1061 },
-  { src: "/photos/film_scans/00003509/000035090037.jpg", width: 1600, height: 1061 },
   
 
 ];
